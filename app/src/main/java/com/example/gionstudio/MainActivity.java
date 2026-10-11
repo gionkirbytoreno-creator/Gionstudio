@@ -1,3 +1,4 @@
+
 package com.example.gionstudio;
 
 import android.os.Bundle;
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Button 1
         Button superButton = findViewById(R.id.superButton);
 
         superButton.setOnClickListener(new View.OnClickListener() {
@@ -27,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Button 2
         Button buttonTwo = findViewById(R.id.buttonTwo);
 
         buttonTwo.setOnClickListener(new View.OnClickListener() {
@@ -40,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Button 3
         Button buttonThree = findViewById(R.id.buttonThree);
 
         buttonThree.setOnClickListener(new View.OnClickListener() {

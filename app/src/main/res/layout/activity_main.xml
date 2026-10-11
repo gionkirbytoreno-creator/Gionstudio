@@ -8,7 +8,6 @@
     android:padding="30dp"
     android:background="#F7F8FC">
 
-    <!-- Title -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,7 +25,6 @@
         android:textColor="#666666"
         android:layout_marginBottom="35dp" />
 
-    <!-- BUTTON 1 -->
     <Button
         android:id="@+id/superButton"
         android:layout_width="match_parent"
@@ -35,7 +33,6 @@
         android:textSize="16sp"
         android:textStyle="bold" />
 
-    <!-- BUTTON 2 -->
     <Button
         android:id="@+id/buttonTwo"
         android:layout_width="match_parent"
@@ -45,7 +42,6 @@
         android:textSize="16sp"
         android:textStyle="bold" />
 
-    <!-- BUTTON 3 -->
     <Button
         android:id="@+id/buttonThree"
         android:layout_width="match_parent"
